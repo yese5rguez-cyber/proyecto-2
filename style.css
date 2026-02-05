@@ -361,6 +361,18 @@ p {
     justify-content: space-between;
 }
 
-
+@media (max-width: 375px) {
+    header {
+        position: static;
+    }
+    #navbar {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .hero-content, .nav-links {
+        flex-direction: column;
+    }
+}
 
 
